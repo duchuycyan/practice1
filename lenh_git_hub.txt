@@ -1,0 +1,33 @@
+_git cd - chuyển vào thư mục nào
+_khi đưa 1 cái gì lên trên github
+cd vào trong thư mục
+git add.
+git status
+git commit * -m "XXXX" (* : all; XXXX" tin nhắn cho hành động này)
+git push -u origin main : đẩy lên
+
+_khi muốn clone 1 cái gì về: git clone *link SSH*
+
+_đối chiếu remote repo trên github và local repo sau đó đồng bộ xuóng
+git pull
+
+_tạo nhánh mới
+git branch *tên nhánh*
+
+_ dùng để chuyển nhánh 
+git checkout *tên nhánh*
+
+_vừa tạo đồng thời chuyển luôn
+git checkout -b *tên*
+
+_ dùng để xem các nhánh h ở local
+git branch
+
+_dùng để xem cả ở local cả ở github
+git branch -a
+
+_xóa nhánh
+git branch -d *tên nhánh*
+
+_dổi tên
+git branch -m *tên trc* *tên sau*
